@@ -5,15 +5,24 @@
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".git",
+		"htmlcov"
+	],
 	"font_size": 13.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"rulers":
 	[
 		79
 	],
 	"save_on_focus_lost": true,
 	"smart_indent": false,
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "false"
 }
-
