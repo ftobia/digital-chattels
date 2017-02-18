@@ -10,9 +10,10 @@
 		".git",
 		"htmlcov"
 	],
-	"font_size": 13.0,
+	"font_size": 14.0,
 	"ignored_packages":
 	[
+		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"rulers":
