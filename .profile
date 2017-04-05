@@ -28,3 +28,5 @@ alias docker-rm-dangling='docker rmi -f $(docker images --quiet --filter "dangli
 # Delete stopped docker containers.
 alias docker-rm-stopped='docker rm `docker ps --no-trunc -aq`'
 
+# Fix docker time.
+alias docker-fix-time='docker run -it --rm --privileged --pid=host debian nsenter -t 1 -m -u -n -i date -u $(date -u +%m%d%H%M%Y)'
